@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 declare global {
   interface Window {
@@ -33,9 +33,9 @@ const VLibras = () => {
   }, []);
 
   return (
-    <div vw="true" className="enabled">
-      <div vw-access-button="true" className="active"></div>
-      <div vw-plugin-wrapper="true">
+    <div {...{ vw: 'true' }} className="enabled">
+      <div {...{ 'vw-access-button': 'true' }} className="active"></div>
+      <div {...{ 'vw-plugin-wrapper': 'true' }}>
         <div className="vw-plugin-top-wrapper"></div>
       </div>
     </div>

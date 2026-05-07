@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 export default function DashboardUsuario() {
@@ -20,7 +20,7 @@ export default function DashboardUsuario() {
         <Link to="/" className="btn btn-outline">Sair</Link>
       </div>
 
-      <div style={{ display: 'flex', gap: '32px', flexDirection: 'column', md: { flexDirection: 'row' } }}>
+      <div style={{ display: 'flex', gap: '32px', flexDirection: 'column' }}>
         
         {/* Sidebar / Tabs */}
         <div style={{ display: 'flex', gap: '16px', borderBottom: '2px solid rgba(0,0,0,0.05)', paddingBottom: '16px' }}>
