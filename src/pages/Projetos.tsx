@@ -30,7 +30,7 @@ const characters = [
     age: '12 anos',
     description: 'Criança com deficiência física · Cadeira de rodas · Traços ribeirinhos. Menino com traços de criança ribeirinha amazônica — pele escura, cabelo preto liso levantado em topete. Está sentado em cadeira de rodas manual. Expressão descontraída, um braço apoiado na roda com postura confiante.',
     tag: 'Deficiência física',
-    image: '/Imagens/Personagens/Tupã - Busto.png',
+    image: '/Imagens/Personagens/Tupa - Busto.png',
     color: 'var(--rosa)'
   },
   {
@@ -46,7 +46,7 @@ const characters = [
     age: 'Adulto, ~35 anos',
     description: 'Professor / pesquisador · Sem deficiência · Traços indígenas amazônicos. Adulto com traços indígenas amazônicos evidentes — pômulos altos, olhos amendoados, cabelo preto liso e reto. Aparência de professor ou pesquisador: usa camisa social, segura um livro ou caderno. Expressão séria mas acolhedora.',
     tag: 'Adulto sem deficiência',
-    image: '/Imagens/Personagens/Pirá -  Busto.png',
+    image: '/Imagens/Personagens/Pira - Busto.png',
     color: 'var(--preto)'
   },
   {
@@ -181,7 +181,7 @@ export default function Projetos() {
         <div className="gallery-container">
           <div className="gallery-scroller">
             <div className="gallery-item">
-              <img src="/Imagens/Personagens/Iara - Corpo + cor.png" alt="Iara" />
+              <img src="/Imagens/Personagens/Iara - Corpo cor.png" alt="Iara" />
               <span>Iara</span>
             </div>
             <div className="gallery-item">
@@ -193,15 +193,15 @@ export default function Projetos() {
               <span>Murici</span>
             </div>
             <div className="gallery-item">
-              <img src="/Imagens/Personagens/Tupã - Corpo inteiro.png" alt="Tupã" />
+              <img src="/Imagens/Personagens/Tupa - Corpo inteiro.png" alt="Tupã" />
               <span>Tupã</span>
             </div>
             <div className="gallery-item">
-              <img src="/Imagens/Personagens/Naara - Corpo inteiro + cor.png" alt="Naara" />
+              <img src="/Imagens/Personagens/Naara - Corpo inteiro cor.png" alt="Naara" />
               <span>Naara</span>
             </div>
             <div className="gallery-item">
-              <img src="/Imagens/Personagens/Pirá - Corpo inteiro.png" alt="Pirá" />
+              <img src="/Imagens/Personagens/Pira - Corpo inteiro.png" alt="Pirá" />
               <span>Pirá</span>
             </div>
             <div className="gallery-item">
