@@ -1,0 +1,105 @@
+:root {
+  --coral: #EF4444;
+  --amarelo: #FACC15;
+  --roxo: #A855F7;
+  --rosa: #F9A8D4;
+  --lilas: #DDD6FE;
+  --preto: #1C1917;
+  --branco: #FFFFFF;
+  --off-white: #F8FAFC;
+  --verde-jade: #10B981;
+  --azul-para: #3B82F6;
+
+  --font-display: 'Sora', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--off-white);
+  color: var(--preto);
+  overflow-x: hidden;
+}
+
+/* Subtle grid pattern decoration */
+.grid-pattern {
+  background-image: 
+    linear-gradient(to right, rgba(0,0,0,0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0,0,0,0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  color: var(--preto);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: var(--font-body);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  transition: opacity 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-black {
+  background-color: var(--preto);
+  color: var(--branco);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--preto);
+  border: 1px solid var(--preto);
+}
+
+.section-label {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--preto);
+  display: block;
+  margin-bottom: 16px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Utils */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
